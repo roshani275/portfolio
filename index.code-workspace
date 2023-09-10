@@ -1,10 +1,221 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"liveServer.settings.port": 5501
-	}
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper"></div>
+        <div class="container">
+            <div class="nav-iteams">
+                <div > <a href="#Projects">Projects</a></div>
+                <div > <a href="#Skills">Skills</a></div>
+                <div > <a href="#Contact Me">Contact Me</a></div>
+            </div>
+       
+   
+<div class="hero-section">
+    <div class="hero-section-left">
+    <div class="hero-section-heading">Hi!! </div>
+    <div class="hero-section-heading hero-section-subheading">I am Roshani Kolhe <span class="role"></span></div>
+    <div class="hero-section-description">
+       Here is my Portfolio Website. Here you will learn about 
+        my journey as a software developer.
+    </div>
+    <div class="faded-text">Roshani Kolhe</div>
+    <button class="btn-group">Hire Me</button>
+</div>
+    <div class="hero-section-right">
+        <div class=" absolute dots">
+            <img src="dots.png" alt="">
+        </div>
+        <div class="absolute  cube">
+            <img src="cube.png" alt="">
+        </div>
+        <div class="absolute circle">
+            <img src="circle.png" alt="">
+        </div>
+        <div class="absolute zigzags">
+            <img src="zigzags.png" alt="">
+        </div>
+        <div class="absolute plus">
+            <img src="plus.png" alt="">
+        </div>
+        <div class=" userimage1">
+            <img src="rosh.jpg" alt="">
+        </div>
+        
+    </div>
+  
+</div>
+<div class="project-section" id="Projects">
+        <h2 class="project-heading " id="project1">Projects</h2>
+        <div class="project-container" id="container1">
+          
+            <div class="projectcard1" id="p1" >
+                <div class="project-number">01</div>
+           
+                <aside  class="aside1">
+                <div class="project-skill-contain"> 
+                    <img class="project-skill" src="HTML.png" alt="">
+                   
+                    <img class="project-skill" src="CSS.png" alt="">
+                    <img class="project-skill" src="Bootstrap.svg" alt="">
+                    
+                </div>
+           
+            
+             
+                <br>
+                   
+                
+                <h2 class="project-heading">Image-gallery Project</h2>
+                <br>
+                <br>
+               
+               
+                <button class="btn-group" id="button1"  >Read More   </button>
+
+                <span class="logo"><img src="Github.svg" alt=""></span>
+                
+        
+                
+                    
+                
+            </div>   
+            </aside>
+
+        <div class="project-container" id="container2">
+          
+            <div class="projectcard1" >
+                <div class="project-number">02</div>
+           
+                <aside  class="aside1">
+                <div class="project-skill-contain"> 
+                    <img class="project-skill" src="HTML.png" alt="">
+                   
+                    <img class="project-skill" src="CSS.png" alt="">
+                    <img class="project-skill" src="Bootstrap.svg" alt="">
+                    
+                </div>
+           
+            
+             
+                     <br>
+                   
+                
+                <h2 class="project-heading">Parallex Website </h2>
+                <br>
+                <br>
+               
+               
+                    <button class="btn-group" id="button1"  >Read More   </button>
+
+                    <span class="logo"><img src="Github.svg" alt=""></span>
+                
+        
+                
+                    
+                
+            </div>   
+        </aside> 
+                
+    </div>
+    
+    
+                    
+                   
+
+</div> 
+</div>    
+
+<div class=" container skill-section" id="Skills">
+    <div class="skill-fade-text">
+        <h2 class="skill1">Skills</h2>
+        <img class="image-blob" src="blob vector.png" alt="">
+    </div>
+    <div class="skill-container-left">
+        <h2 class="skill-heading">
+            <span class="text-span">M</span>e and 
+            <br />
+            MyTech Stack</h2>
+        <div class="skill-subheading">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quasi aspernatur inventore asperiores eveniet vitae, molestias 
+                dolores corporis consequuntur assumenda dolore nihil aut. Modi perspiciatis quisquam exercitationem minima facilis 
+                voluptatem!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dignissimos doloremque
+                 illum quisquam nostrum quod inventore velit ipsam ipsa aut, iusto doloribus at impedit obcaecati? Animi dolorum dolor 
+                 velit maxime?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio recusandae 
+                    temporibus iste, a ab facere soluta nostrum optio vitae nobis unde maxime saepe eos architecto alias eius
+                     sint rerum veniam?</p>
+        </div>
+
+    </div>>
+    <div class="skill-container-right">
+        <img class= "skill-logo"src="Bootstrap.svg" alt="">
+        <img  class= "skill-logo" src="HTML.png" alt="">
+        <img class= "skill-logo" src="CSS.png" alt="">
+        <img class= "skill-logo"src="Javascript.svg" alt="">
+    </div>
+</div>
+<div class=" project-section form-container" id="Contact Me">
+    <div class="container">
+        <h1 class="form-heading">Contact Me</h1>
+        <h3 class="form-subheading">Questions , thoughts, or just to say hello?</h3>
+        <div class="contact-form-container">
+            <form action="">
+                <div class="formfield-container">
+                    <input class="formfield" type="text" name="name" id="" placeholder="Enter your name">
+                    <input  class="formfield" type="email" name="email" id="" placeholder="Enter your email address">
+                    <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject">
+                    <textarea  class="formfield" id="" name="message" rows="10" cols="30" placeholder="Enter  your message"></textarea>>
+                    <button class="btn-group "id="message-button">Send Message</button>
+
+
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+
+</div>
+<div class=" project cointainer wrapper-container"> 
+    <div class="footer-faded-text">Roshani Kolhe</div>
+    <div class="link-wrapper">
+        <a class="footer-linker" href="#Projects">Projects</a>
+        <a class="footer-linker" href="#Skills">Skills</a>
+        <a class="footer-linker" href="#Contact Me">Contact Me</a>
+    </div>
+    <div class="footer-icons">
+       <img class="footer-images" src="linkdin.png" alt="">
+       <img class="footer-images" src="Github.svg" alt="">
+       <img class="footer-images" src="tweeter.png" alt="">
+       <img class="footer-images" src="insta.jpg" alt="">
+       <img class="footer-images" src="envelope.jpg" alt="">
+    </div>
+    
+</div>
+
+</body>
+</html>
+
+
+    
+
+
+
+
+            
+         
+
+                
+               
+            
+
+            
+
+
